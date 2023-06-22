@@ -10,66 +10,73 @@
 <body>
     <!--Grid container to hold the side nav bar and the main-->
     <div class="grid-container">
+
         <!--Side Nav Bar-->
         <nav>
             <div class="logo">
-                <img src="./asset/Logo.png" alt="logo"> 
+                <span><img src="./asset/Logo.png" alt="logo"></span>
                 <span><span class="logo__green">Me</span>Store</span>
             </div>
     
+        <!--Menu list and icons -->
             <div class="menu">
                 <ul>
                     <li>
-                        <a href="#"><span class="material-symbols-outlined">space_dashboard</span> Dashboard</a>
+                        <a href="#"><span class="material-symbols-outlined">space_dashboard</span> <span>Dashboard</span></a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="#"><span class="material-symbols-outlined">group</span> Costumers</a>
+                        <a href="#"><span class="material-symbols-outlined">group</span> <span>Costumers</span></a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="#"><span class="material-symbols-outlined">attach_money</span> Earnings</a>
+                        <a href="#"><span class="material-symbols-outlined">attach_money</span> <span>Earnings</span></a>
                     </li>
                 </ul>
                 <ul>
                     <li>
                         <a href="#">
-                            <span class="material-symbols-outlined">shopping_cart</span> Product Sales</span> 
+                            <span class="material-symbols-outlined">shopping_cart</span> <span>Product Sales</span>
                         </a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="#"> <span class="material-symbols-outlined">article</span> Store Management</a>
+                        <a href="#"> <span class="material-symbols-outlined">article</span> <span>Store Management</span></a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="#"><span class="material-symbols-outlined"> settings</span> Settings</a>
+                        <a href="#"><span class="material-symbols-outlined"> settings</span><span>Settings</span></a>
                     </li>
                 </ul>
             </div>
-    
-            <div class="toggle">
-                <span class="material-symbols-outlined">toggle_off</span> <span>Night Mode</span>
+    <!--Toggle Button/Night Mode-->
+            <div class="toggle" id="toggle">
+                <span class="material-symbols-outlined">toggle_off</span> 
+                <span>Night Mode</span>
             </div>
         </nav>
 
+        <!--Main Section-->
         <main>
             <header>
                 <div class="dashboard">
                     <h3>Dashboard</h3>
                 </div>
-                <div class="search">
-                    <span class="material-symbols-outlined">search</span>
-                    <span class="material-symbols-outlined">notifications</span>
+                <div class="uesr">
+                    <div class="uesr__search">
+                        <span class="material-symbols-outlined">search</span>
+                        <span class="material-symbols-outlined">notifications</span>
+                    </div>
+                    <div class="user__profile">
+                        <p>Samantha</p>
+                        <span><img src="./asset/Image Profile.png" alt="Profile picture"></span>
+                    </div>
                 </div>
-                <div class="user">
-                    <p>Samantha</p>
-                    <span><img src="./asset/Image Profile.png" alt="Profile picture"></span>
-                </div>
+                
             </header>
     
         </main>
